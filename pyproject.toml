@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "rbf-houston-housing"
+version = "0.1.0"
+description = "Yet another implementation for the rbf-houston-housing problem"
+authors = ["Pavlos Karakalidis <pavloc.kara@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.2"
+numpy = "^1.22.4"
+matplotlib = "^3.5.2"
+PyYAML = "^6.0"
+scikit-learn = "^1.1.1"
+torch = {version = "^1.11.0", source = "pytorch"}
+torchvision = {version = "^0.12.0", source = "pytorch"}
+
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu115/"
+default = false
+secondary = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
