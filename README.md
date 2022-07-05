@@ -1,4 +1,4 @@
-# RBF Regression - Houston Housing
+# RBF Regression - Boston Housing
 This is yet another implementation for the rbf regression problem using the Boston Housing dataset.
 It is implemented as part of a homework exercise for [088] Computational Intelligence course 
 of ECE Department, AUTh

@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "rbf-houston-housing"
+name = "rbf-boston-housing"
 version = "0.1.0"
-description = "Yet another implementation for the rbf-houston-housing problem"
+description = "Yet another implementation for the rbf-boston-housing problem"
 authors = ["Pavlos Karakalidis <pavloc.kara@outlook.com>"]
 
 [tool.poetry.dependencies]
