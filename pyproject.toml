@@ -5,7 +5,7 @@ description = "Yet another implementation for the rbf-boston-housing problem"
 authors = ["Pavlos Karakalidis <pavloc.kara@outlook.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "~3.9"
 pandas = "^1.4.2"
 numpy = "^1.22.4"
 matplotlib = "^3.5.2"
@@ -13,6 +13,7 @@ PyYAML = "^6.0"
 scikit-learn = "^1.1.1"
 torch = {version = "^1.11.0", source = "pytorch"}
 torchvision = {version = "^0.12.0", source = "pytorch"}
+torchaudio = {version = "^0.11.0", source = "pytorch"}
 
 
 [[tool.poetry.source]]
