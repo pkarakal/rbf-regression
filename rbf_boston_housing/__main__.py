@@ -31,7 +31,7 @@ if __name__ == "__main__":
                                               pin_memory=pin_memory)
     dropout = float(cli.get("dropout"))
     boston_model = RBFNetwork(X_train.to_numpy().shape[1], dropout if dropout is not None else 0.2)
-    criterion = nn.SoftMarginLoss()
+    criterion = nn.MSELoss()
     rate = float(cli.get('rate'))
     optimizer = torch.optim.SGD(boston_model.parameters(), lr=rate if rate is not None else 0.002)
     images, labels = next(iter(train_loader))
